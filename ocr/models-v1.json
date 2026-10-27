@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "version": "ocr-models-v1",
+  "engine": "PP-OCRv5 recognition only",
+  "models": [
+    {
+      "name": "ch_PP-OCRv5_rec_mobile.onnx",
+      "bytes": 16631306,
+      "sha256": "5825fc7ebf84ae7a412be049820b4d86d77620f204a041697b0494669b1742c5",
+      "url": "https://github.com/Seoki0903-forest/ZZZ-disk/releases/download/ocr-models-v1/ch_PP-OCRv5_rec_mobile.onnx",
+      "source": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.10.0/onnx/PP-OCRv5/rec/ch_PP-OCRv5_rec_mobile.onnx"
+    },
+    {
+      "name": "korean_PP-OCRv5_rec_mobile.onnx",
+      "bytes": 13488748,
+      "sha256": "cd6e2ea50f6943ca7271eb8c56a877a5a90720b7047fe9c41a2e541a25773c9b",
+      "url": "https://github.com/Seoki0903-forest/ZZZ-disk/releases/download/ocr-models-v1/korean_PP-OCRv5_rec_mobile.onnx",
+      "source": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.10.0/onnx/PP-OCRv5/rec/korean_PP-OCRv5_rec_mobile.onnx"
+    },
+    {
+      "name": "latin_PP-OCRv5_rec_mobile.onnx",
+      "bytes": 7904513,
+      "sha256": "b20bd37c168a570f583afbc8cd7925603890efbcdc000a59e22c269d160b5f5a",
+      "url": "https://github.com/Seoki0903-forest/ZZZ-disk/releases/download/ocr-models-v1/latin_PP-OCRv5_rec_mobile.onnx",
+      "source": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.10.0/onnx/PP-OCRv5/rec/latin_PP-OCRv5_rec_mobile.onnx"
+    },
+    {
+      "name": "cyrillic_PP-OCRv5_rec_mobile.onnx",
+      "bytes": 8074092,
+      "sha256": "90f761b4bfcce0c8c561c0cb5c887b0971d3ec01c32164bdf7374a35b0982711",
+      "url": "https://github.com/Seoki0903-forest/ZZZ-disk/releases/download/ocr-models-v1/cyrillic_PP-OCRv5_rec_mobile.onnx",
+      "source": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.10.0/onnx/PP-OCRv5/rec/cyrillic_PP-OCRv5_rec_mobile.onnx"
+    },
+    {
+      "name": "th_PP-OCRv5_rec_mobile.onnx",
+      "bytes": 7915294,
+      "sha256": "de541dd83161c241ff426f7ecfd602a0ba77d686cf3ab9a6c255ea82fd08006e",
+      "url": "https://github.com/Seoki0903-forest/ZZZ-disk/releases/download/ocr-models-v1/th_PP-OCRv5_rec_mobile.onnx",
+      "source": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.10.0/onnx/PP-OCRv5/rec/th_PP-OCRv5_rec_mobile.onnx"
+    }
+  ],
+  "languages": {
+    "ko": "korean",
+    "ja": "ch",
+    "zh-cn": "ch",
+    "zh-tw": "ch",
+    "ru": "cyrillic",
+    "th": "th",
+    "en": "latin",
+    "de": "latin",
+    "fr": "latin",
+    "es": "latin",
+    "pt": "latin",
+    "id": "latin",
+    "vi": "latin"
+  },
+  "license": "Apache-2.0; see OCR-LICENSES.txt"
+}
